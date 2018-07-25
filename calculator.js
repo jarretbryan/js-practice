@@ -24,7 +24,7 @@ calculator.addEventListener("click", function(event){
         store.innerHTML = `${eval(result)}`
     } else {
         //takes in array and runs math
-        store.innerText = ""
+        store.innerText = "Math will go here!"
         joinNumbers()
         storeDisplay.push(event.target.value)
         renderStoreDisplay()
@@ -39,7 +39,7 @@ function renderStoreDisplay(){
 }
 
 function clearStoreDisplay(){
-    store.innerText = ""
+    store.innerText = "Math will go here!"
     storeDisplay = []
 }
 
